@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/pallavikrdy/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/PallaviKunti"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/ammayiiii_ni?igsh=MWp4dThrNTl5bGhzcQ=="><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one" style="color:#781729">Hello,</div>
+          <div class="text-two" style="color:#781729">I'm Pallavi Reddy</div>
+          <div class="text-three" style="color:#781729">From India</div>
+        </div>
+        <div class="button">
+          <button>Hire Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="images/pic.png" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">Designing Is My Passion</div>
+            <p>
+             A passionate web developer with a creative flair and a knack for turning visions into reality. 
+ 	    My journey in web development began with a fascination for coding and design, and it has evolved into a career where I blend aesthetics with functionality. 
+           With a focus on user experience and a commitment to staying updated with the latest industry trends, I'm dedicated to creating web solutions that not only meet but exceed expectations. 
+            </p>
+            <div class="button">
+		<a href="Pallavi_Resume.pdf" style="color:white; text-decoration="none"">
+              <button>Download CV
+		</a>	
+		</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Devlopment</div>
+            <p>Building and maintaining websites, applications, animations, and mobile applications etc by using HTML, CSS, JavaScript.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>Creating visually appealing and meaningful symbols that convey a specific message, function, or brand identity.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>Photography is the creative process of preserving fleeting instants, transforming them into visually striking and emotionally resonant photographs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>I am always open to discussing new projects, opportunities in tech world, partnerships and more so mentorship..</p>
+
+		<!--contact-form------------------->
+	<section id="contact-form">
+	<form>
+	<!--left--------------------------------------->
+	<div class="contact-left">
+	<h1 class="c-l-heading">Write Us</h1>
+	<!--name-------->
+	<div class="f-name">
+	<font >Name</font>
+	<input type="text" placeholder="Full Name"/>
+	</div>
+  <br>
+	<!--email-------->
+<div class="f-email">
+	<font >Email</font>
+	<input type="email" placeholder="Example@gmail.com"/>
+	</div>
+	</div>
+  <br>
+	<!--right------------------------------------------->
+	<div class="contact-right">
+	<!--message-------->
+	<div class="message">
+	<font >Text</font>
+	<textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+	</div>
+  <br>
+	</div>
+		
+	</form>
+	
+	</section>
+
+          <div class="button">
+		<a href="mailto:example@gmail.com">
+            <button>Let's Chat</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
